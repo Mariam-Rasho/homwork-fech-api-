@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.navbar img {
+  max-height: 80px;
+}
+.search {
+  /* background-image: linear-gradient(#a1adff, #51555dc1); */
+
+  background: radial-gradient(
+    rgba(138, 138, 206, 0.815),
+    rgba(143, 179, 237, 0.218)
+  );
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar,
+.movie {
+  background: rgba(213, 218, 234, 0.626);
+  background: linear-gradient(
+    to right bottom,
+    rgba(143, 179, 237, 0.803),
+    rgba(62, 62, 81, 0.724)
+  );
+  backdrop-filter: blur(11.8px);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+html {
+  background: url(images/disney11.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+}
+.movie_Info span {
+  float: right;
+}
+.movie_Img img {
+  width: 100%;
+  height: 300px;
+}
+.movie {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 130px;
+}
+.movie_Info h3 {
+  color: #c4caf1cc;
+}
